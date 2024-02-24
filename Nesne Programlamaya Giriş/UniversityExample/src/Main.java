@@ -43,7 +43,7 @@ public class Main {
         classroom1.courses = new Course[15];
         classroom1.courses[0] = course1;
         course1.classroom = classroom1;
-
+        
         System.out.println("Name of student student1's first course is " + student1.coursesTaken[0].name);
         System.out.println("Name of student student1's first course's professor is " + student1.coursesTaken[0].teacher.name);
         System.out.println("Name of student student1's first course's professor's department is " + student1.coursesTaken[0].teacher.department.name);
