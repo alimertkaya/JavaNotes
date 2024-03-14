@@ -2,6 +2,11 @@ public class Point {
     double x;
     double y;
 
+    public Point(double x, double y) {
+        this.x = x;
+        this.y = y;
+    }
+
     public double getX() {
         return x;
     }
@@ -32,10 +37,7 @@ public class Point {
 
     @Override
     public Point clone() {
-        Point point = new Point();
-        point.x = this.x;
-        point.y = this.y;
-
+        Point point = new Point(this.x,this.y);
         return point;
     }
 
