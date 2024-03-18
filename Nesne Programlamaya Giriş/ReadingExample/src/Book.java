@@ -6,6 +6,15 @@ public class Book {
     int currentPage;
     Author author;
 
+    public Book(String title, int page, String type, boolean isHardCover, int currentPage, Author author) {
+        this.title = title;
+        this.page = page;
+        this.type = type;
+        this.isHardCover = isHardCover;
+        this.currentPage = currentPage;
+        this.author = author;
+    }
+
     public String getTitle() {
         return title;
     }

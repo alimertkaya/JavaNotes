@@ -4,6 +4,13 @@ public class Reader {
     char gender;
     Book[] booksRead;
 
+    public Reader(String name, int age, char gender, Book[] booksRead) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.booksRead = booksRead;
+    }
+
     public String getName() {
         return name;
     }
