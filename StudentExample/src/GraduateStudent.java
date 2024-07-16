@@ -12,24 +12,26 @@ public class GraduateStudent extends Student {
 
     @Override
     public void study() {
-        System.out.println("GraduateStudent is studying");
+        super.study();
     }
 
     @Override
     public void register() {
-        System.out.println("GraduateStudent register");
+        super.register();
     }
 
     public void writeThesis() {
-        System.out.printf("GraduateStudent is writing thesis on %s\n", thesis);
+        String className = this.getClass().getSimpleName();
+        System.out.printf("%s is writing thesis on %s\n",className,thesis);
     }
 
     public void meetWithAdvisor() {
-        System.out.printf("GraduateStudent is meeting with advisor %s\n", advisor);
+        String className = this.getClass().getSimpleName();
+        System.out.printf("%s is meeting with advisor %s\n",className,advisor);
     }
 
     @Override
     public String toString() {
-        return String.format("advisor= %s, thesis= %s", super.toString().replace("}",""),advisor,thesis);
+        return super.toString();
     }
 }

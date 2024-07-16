@@ -9,16 +9,16 @@ public class UndergraduateStudent extends Student {
 
     @Override
     public void study() {
-        System.out.println("UndergraduateStudent is studying");
+        super.study();
     }
 
     @Override
     public void register() {
-        System.out.println("UndergraduateStudent register");
+        super.register();
     }
 
     @Override
     public String toString() {
-        return String.format("%s, minor= %s", super.toString().replace("}", ""),minor);
+        return super.toString();
     }
 }

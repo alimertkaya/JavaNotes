@@ -8,12 +8,12 @@ public class VocationalStudent extends Student {
 
     @Override
     public void study() {
-        System.out.println("VocationalStudent is working");
+        super.study();
     }
 
     @Override
     public void register() {
-        System.out.println("VocationalStudent register");
+        super.register();
     }
 
     @Override

@@ -17,11 +17,13 @@ public class Student {
     }
 
     public void study() {
-        System.out.println("Student is studying");
+        String className = this.getClass().getSimpleName();
+        System.out.printf("%s is studying\n",className);
     }
 
     public void register() {
-        System.out.println("Student register");
+        String className = this.getClass().getSimpleName();
+        System.out.printf("%s register\n",className);
     }
 
     public String toString() {
