@@ -1,5 +1,5 @@
 public class SinFunction implements MathFunction {
-    private static String name = "sin";
+    private static String name = "Sin";
     @Override
     public String getName() {
         return name;
