@@ -5,14 +5,16 @@ public class Main {
     public static void main(String[] args) {
         in = new Scanner(System.in);
 
-        CalculatorT1 calculatorT1 = new CalculatorT1(5);
+        CalculatorT1 calculatorT1 = new CalculatorT1(6);
         calculatorT1.addFunction(new SinFunction());
         calculatorT1.addFunction(new CosFunction());
         calculatorT1.addFunction(new LogFunction());
         calculatorT1.addFunction(new SquaredFunction());
         calculatorT1.addFunction(new CubedFunction());
+        calculatorT1.addFunction(new FibonacciFunction());
 
         startCalculator(calculatorT1);
+
     }
 
     private static void startCalculator(CalculatorT1 calculator) {
