@@ -1,0 +1,9 @@
+package com.springintro.rentACar.business.abstracts;
+
+import com.springintro.rentACar.entities.concretes.Brand;
+
+import java.util.List;
+
+public interface BrandService {
+    List<Brand> getAll();
+}

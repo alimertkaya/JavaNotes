@@ -1,13 +1,13 @@
-package com.springintro.store;
+package com.springintro.rentACar;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StoreApplication {
+public class RentACarApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StoreApplication.class, args);
+		SpringApplication.run(RentACarApplication.class, args);
 	}
 
 }

@@ -1,10 +1,10 @@
-package com.springintro.store;
+package com.springintro.rentACar;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class StoreApplicationTests {
+class RentACarApplicationTests {
 
 	@Test
 	void contextLoads() {
