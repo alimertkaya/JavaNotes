@@ -1,9 +1,8 @@
 package com.springintro.rentACar.dataAccess.abstracts;
 
 import com.springintro.rentACar.entities.concretes.Brand;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-import java.util.List;
+public interface BrandDao extends JpaRepository<Brand,Integer> {
 
-public interface BrandDao {
-    List<Brand> getAll();
 }
