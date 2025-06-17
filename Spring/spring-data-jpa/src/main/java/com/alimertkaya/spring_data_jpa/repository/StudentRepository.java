@@ -18,6 +18,6 @@ public interface StudentRepository extends JpaRepository<Student, Integer> {
 	//@Query(value = "from Student", nativeQuery = false)
 	//List<Student> findAllStudents();
 	
-	@Query(value = "from * from student.student", nativeQuery = true)
-	List<Student> findAllStudents();
+	//@Query(value = "from * from student.student", nativeQuery = true)
+	//List<Student> findAllStudents();
 }
